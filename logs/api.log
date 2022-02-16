@@ -1297,3 +1297,38 @@
 16-02-2022 12:11:53.779 [Gauge] [INFO] Gauge daemon initialized and listening on port: 61046
 16-02-2022 12:11:53.779 [Gauge] [DEBUG] Watching directory: D:\LelySeleniumGauge\specs
 16-02-2022 12:11:53.805 [Gauge] [DEBUG] Found 1 files
+16-02-2022 12:48:54.579 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Download product catalog"}
+16-02-2022 12:48:54.589 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Download product catalog"  parameterizedStepValue:"Download product catalog"}}
+16-02-2022 12:48:54.590 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Go to Lely homepage"}
+16-02-2022 12:48:54.590 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Go to Lely homepage"  parameterizedStepValue:"Go to Lely homepage"}}
+16-02-2022 12:48:54.607 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Go to Hepsiburada homepage"}
+16-02-2022 12:48:54.621 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Go to Hepsiburada homepage"  parameterizedStepValue:"Go to Hepsiburada homepage"}}
+16-02-2022 12:48:54.621 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Go to Hepsiburada homepage"}
+16-02-2022 12:48:54.621 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Go to Hepsiburada homepage"  parameterizedStepValue:"Go to Hepsiburada homepage"}}
+16-02-2022 12:48:54.621 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Search product using keyword <keyword>"}
+16-02-2022 12:48:54.621 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Search product using keyword {}"  parameterizedStepValue:"Search product using keyword <keyword>"  parameters:"keyword"}}
+16-02-2022 12:48:54.622 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check all results contains searched keyword"}
+16-02-2022 12:48:54.623 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check all results contains searched keyword"  parameterizedStepValue:"Check all results contains searched keyword"}}
+16-02-2022 12:48:54.623 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Go to Lely TechDocs"}
+16-02-2022 12:48:54.623 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Go to Lely TechDocs"  parameterizedStepValue:"Go to Lely TechDocs"}}
+16-02-2022 12:48:54.623 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Select <product> from machine list"}
+16-02-2022 12:48:54.624 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Select {} from machine list"  parameterizedStepValue:"Select <product> from machine list"  parameters:"product"}}
+16-02-2022 12:48:54.624 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check product catalog is displayed"}
+16-02-2022 12:48:54.624 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check product catalog is displayed"  parameterizedStepValue:"Check product catalog is displayed"}}
+16-02-2022 12:48:54.624 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"View document on the list"}
+16-02-2022 12:48:54.624 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"View document on the list"  parameterizedStepValue:"View document on the list"}}
+16-02-2022 12:48:54.624 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check valid document is opened in new tab"}
+16-02-2022 12:48:54.624 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check valid document is opened in new tab"  parameterizedStepValue:"Check valid document is opened in new tab"}}
+16-02-2022 12:48:54.625 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Return main tab"}
+16-02-2022 12:48:54.625 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Return main tab"  parameterizedStepValue:"Return main tab"}}
+16-02-2022 12:48:54.626 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Search product using keyword \"happy\""}
+16-02-2022 12:48:54.627 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Search product using keyword {}"  parameterizedStepValue:"Search product using keyword <happy>"  parameters:"happy"}}
+16-02-2022 12:48:54.628 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Select \"Luna EUR\" from machine list"}
+16-02-2022 12:48:54.630 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Select {} from machine list"  parameterizedStepValue:"Select <Luna EUR> from machine list"  parameters:"Luna EUR"}}
+16-02-2022 12:48:54.631 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check catalog is downloaded"}
+16-02-2022 12:48:54.633 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check catalog is downloaded"  parameterizedStepValue:"Check catalog is downloaded"}}
+16-02-2022 12:49:32.369 [Gauge] [DEBUG] Spec file added / modified: D:\LelySeleniumGauge\specs\LelyGeneralTests.spec
+16-02-2022 12:49:32.435 [Gauge] [DEBUG] Spec file added / modified: D:\LelySeleniumGauge\specs\LelyGeneralTests.spec
+16-02-2022 12:49:43.245 [Gauge] [DEBUG] Spec file added / modified: D:\LelySeleniumGauge\specs\LelyGeneralTests.spec
+16-02-2022 12:49:43.278 [Gauge] [DEBUG] Spec file added / modified: D:\LelySeleniumGauge\specs\LelyGeneralTests.spec
+16-02-2022 16:47:38.434 [Gauge] [DEBUG] Spec file added / modified: D:\LelySeleniumGauge\specs\LelyGeneralTests.spec
