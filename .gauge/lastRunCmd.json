@@ -1,0 +1,6 @@
+[
+	"C:\\Program Files\\Gauge\\bin\\gauge.exe",
+	"run",
+	"--simple-console",
+	"D:/LelySeleniumGauge/specs/LelyGeneralTests.spec"
+]

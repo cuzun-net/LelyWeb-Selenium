@@ -1,0 +1,75 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 871milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 871"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 60609"}
+{"logLevel":"info","message":"Listening on port:60609"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkProductCatalogIsDisplayed' and 'StepImplementation.checkProductCatalogIsDisplayed'"}
+{"logLevel":"debug","message":"Found Check product catalog is displayed in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.implementation1' and 'StepImplementation.implementation1'"}
+{"logLevel":"debug","message":"Found Go to Hepsiburada homepage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.returnMainTab' and 'StepImplementation.returnMainTab'"}
+{"logLevel":"debug","message":"Found Return main tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.goToHomePage' and 'StepImplementation.goToHomePage'"}
+{"logLevel":"debug","message":"Found Go to Lely homepage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.addBasketForSelectedSeller' and 'StepImplementation.addBasketForSelectedSeller'"}
+{"logLevel":"debug","message":"Found Select {} from machine list in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.downloadProductCatalog' and 'StepImplementation.downloadProductCatalog'"}
+{"logLevel":"debug","message":"Found Download product catalog in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkValidDocumentIsOpenedNewTab' and 'StepImplementation.checkValidDocumentIsOpenedNewTab'"}
+{"logLevel":"debug","message":"Found Check valid document is opened in new tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.goToTechDocs' and 'StepImplementation.goToTechDocs'"}
+{"logLevel":"debug","message":"Found Go to Lely TechDocs in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkAllResultContainsKeyword' and 'StepImplementation.checkAllResultContainsKeyword'"}
+{"logLevel":"debug","message":"Found Check all results contains searched keyword in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.viewDocument' and 'StepImplementation.viewDocument'"}
+{"logLevel":"debug","message":"Found View document on the list in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkCatalogIsDownloaded' and 'StepImplementation.checkCatalogIsDownloaded'"}
+{"logLevel":"debug","message":"Found Check catalog is downloaded in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.searchKeyword' and 'StepImplementation.searchKeyword'"}
+{"logLevel":"debug","message":"Found Search product using keyword {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tCheck product catalog is displayed : public void checkProductCatalogIsDisplayed()"}
+{"logLevel":"debug","message":"\tCheck valid document is opened in new tab : public void checkValidDocumentIsOpenedNewTab()"}
+{"logLevel":"debug","message":"\tCheck all results contains searched keyword : public void checkAllResultContainsKeyword()"}
+{"logLevel":"debug","message":"\tView document on the list : public void viewDocument()"}
+{"logLevel":"debug","message":"\tReturn main tab : public void returnMainTab()"}
+{"logLevel":"debug","message":"\tDownload product catalog : public void downloadProductCatalog()"}
+{"logLevel":"debug","message":"\tGo to Hepsiburada homepage : public void implementation1()"}
+{"logLevel":"debug","message":"\tGo to Lely TechDocs : public void goToTechDocs()"}
+{"logLevel":"debug","message":"\tSelect {} from machine list : public void addBasketForSelectedSeller(String name)"}
+{"logLevel":"debug","message":"\tCheck catalog is downloaded : public void checkCatalogIsDownloaded()"}
+{"logLevel":"debug","message":"\tGo to Lely homepage : public void goToHomePage()"}
+{"logLevel":"debug","message":"\tSearch product using keyword {} : public void searchKeyword(String srcKeyword)"}
+Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 54828
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Şub 16, 2022 2:24:57 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Şub 16, 2022 2:24:57 ÖÖ org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 98, so returning the closest version found: 96
+Şub 16, 2022 2:24:57 ÖÖ org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 98 of 96
+{"logLevel":"debug","message":"Executing 'Go to Lely homepage' using 'class StepImplementation.goToHomePage"}
+{"logLevel":"debug","message":"Executing 'Search product using keyword {}' using 'class StepImplementation.searchKeyword"}
+{"logLevel":"debug","message":"Executing 'Check all results contains searched keyword' using 'class StepImplementation.checkAllResultContainsKeyword"}
+{"logLevel":"debug","message":"Executing 'Go to Lely homepage' using 'class StepImplementation.goToHomePage"}
+{"logLevel":"debug","message":"Executing 'Go to Lely TechDocs' using 'class StepImplementation.goToTechDocs"}
+{"logLevel":"debug","message":"Executing 'Select {} from machine list' using 'class StepImplementation.addBasketForSelectedSeller"}
+{"logLevel":"debug","message":"Executing 'Check product catalog is displayed' using 'class StepImplementation.checkProductCatalogIsDisplayed"}
+{"logLevel":"debug","message":"Executing 'View document on the list' using 'class StepImplementation.viewDocument"}
+{"logLevel":"debug","message":"Executing 'Check valid document is opened in new tab' using 'class StepImplementation.checkValidDocumentIsOpenedNewTab"}
+{"logLevel":"debug","message":"Executing 'Return main tab' using 'class StepImplementation.returnMainTab"}
+{"logLevel":"debug","message":"Executing 'Download product catalog' using 'class StepImplementation.downloadProductCatalog"}
+{"logLevel":"debug","message":"Executing 'Check catalog is downloaded' using 'class StepImplementation.checkCatalogIsDownloaded"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
